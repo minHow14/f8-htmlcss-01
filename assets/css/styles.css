@@ -50,8 +50,18 @@ a {
   overflow: hidden;
 }
 /* Header */
-.header {
+.fixed-header {
+  background-color: #e6f0ff;
+  padding-top: 2.6rem;
+  position: sticky;
+  top: -2.6rem;
+  z-index: 1;
+}
+
+.hero-wrap {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background: #e6f0ff;
   height: 100vh;
 }
@@ -59,7 +69,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 1.2rem 0;
 }
 
 .navbar ul {
