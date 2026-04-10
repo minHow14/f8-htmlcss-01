@@ -67,6 +67,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background: #e6f0ff;
   height: calc(100vh - 90px);
 }
@@ -108,10 +109,6 @@ a {
   border-radius: 8px;
   margin-left: 18px;
   padding: 13px 16px;
-}
-
-.hero {
-  margin-top: 13rem;
 }
 
 .hero .infor {
