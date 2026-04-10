@@ -623,6 +623,10 @@ a {
   border-radius: 3px;
 }
 
+.footer .social-link + .social-link {
+  margin-left: 1.6rem;
+}
+
 .footer .social-link:hover {
   background-color: #dcdada;
 }
